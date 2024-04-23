@@ -1,0 +1,27 @@
+1. *Instalação do Python:*
+
+   a. Acesse o site oficial do Python em https://www.python.org/downloads/.
+   
+   b. Selecione a versão mais recente do Python para o seu sistema operacional (Windows, macOS, ou Linux) e faça o download do instalador.
+   
+   c. Execute o instalador e siga as instruções para concluir a instalação. Lembre-se de marcar a opção "Adicionar Python ao PATH" durante a instalação no Windows.
+   
+   d. Após a instalação, abra o terminal (Prompt de Comando no Windows) e digite python --version para verificar se o Python foi instalado corretamente. Você deverá ver a versão instalada.
+
+2. *Instalação do virtualenv:*
+
+   a. Com o Python instalado, abra o terminal e digite pip install virtualenv e pressione Enter. Isso instalará o virtualenv, uma ferramenta para criar ambientes virtuais isolados do Python.
+
+3. *Instalação do Flask:*
+
+   a. Com o virtualenv instalado, navegue até o diretório onde deseja criar seu projeto Flask no terminal.
+   
+   b. Crie um novo ambiente virtual digitando virtualenv nome_do_seu_ambiente e pressione Enter.
+   
+   c. Ative o ambiente virtual digitando source nome_do_seu_ambiente/bin/activate no Linux/macOS ou nome_do_seu_ambiente\Scripts\activate no Windows e pressione Enter.
+   
+   d. Agora que você está dentro do ambiente virtual, use o pip para instalar o Flask digitando pip install flask e pressione Enter.
+   
+   e. Após a instalação, você pode criar seu aplicativo Flask e começar a desenvolver!
+
+O Python é uma linguagem de programação de alto nível conhecida por sua simplicidade e legibilidade. É amplamente utilizado em diversas áreas, como desenvolvimento web, automação, ciência de dados, inteligência artificial, entre outros. O Flask é um framework web leve e flexível para Python, adequado para construir aplicativos web simples e poderosos.
